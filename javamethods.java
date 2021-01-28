@@ -65,4 +65,26 @@ public class Main {
     }
 }
 // When using this you can see (n^2 grows faster than (n)
-// ----------------------------------------------------------
+public class Main {
+    public void log(int[] numbers) {
+        // O(n ^ 3) <------
+        for (int first : numbers) // O(n)
+            for (int second : numbrs) // O(n)
+                for(int third : numners) 
+                System.out.println(first + ", " + second);
+    }
+}
+//----------------------------------------------------------
+// space complexity
+//----------------------------------------------------------
+public class Main {
+    public void greet (String[] names) {
+        // O(1) space 
+        String[] copy = new String[names.length];
+        for (int i = 0; i <names.length; i++)
+            System.out.println("Hi " + names[i]);
+    }
+}
+//----------------------------------------------------------
+// Arrays
+//----------------------------------------------------------
