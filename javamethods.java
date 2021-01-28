@@ -88,3 +88,15 @@ public class Main {
 //----------------------------------------------------------
 // Arrays
 //----------------------------------------------------------
+//Dynamic Array 
+public class Main{
+    public static void main (String[] args) {
+        Arrray numbers = new Array(length: 3);
+        numbers.insert(item: 10);
+        numbers.inser(item: 20);
+        numbers.insert(item:3 0);
+        numbers.removeAt(index 3);
+        numbers.print();
+    }
+}
+//----------------------------------------------------------
